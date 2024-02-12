@@ -5,6 +5,13 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+
+    //프로젝트 갯수에 맞게 동적으로 projectTile을 그려주는 함수(ResponsiveRowColumn 타입의 List)
+  
+
+
+    return const Scaffold(
+
+    );
   }
 }

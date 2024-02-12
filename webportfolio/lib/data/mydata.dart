@@ -215,13 +215,36 @@ class Mydata{
   // 프로젝트 데이터
   static final List<Project> projects = [
     Project(
-      title: "",
-      image: "",
-      term: "",
-      team: "",
-      description: "",
-      notionURL:
-          "",
+      title: "포용누리 - Flutter앱 프로젝트",
+      image: "images/포용누리목업.png",
+      term: "23/07/28 ~ 23/08/14 ",
+      team: "백엔드1, 프론트엔드3",
+      description: "장애인을 위한 일자리 추천 AI앱",
+      gitURL: "https://github.com/Oh-Kang94/Season3_Main-Project_Disabled-App",
+    ),
+    Project(
+      title: "BlindDating - Flutter앱 프로젝트",
+      image: "images/blinddating목업.png",
+      term: "23/10/11 ~ 23/10/31",
+      team: "프론트엔드 2명 프론트엔드, 벡엔드, 분석 1명, 프론트엔드, 분석 1명",
+      description: "회원의 외모가 아닌 어떤 견종과 닮았는지만을 보고 대화로 상대방을 알아가기 위한 목적으로 만든 앱",
+      gitURL: "https://github.com/seolaox/blind_dating/tree/Develop",
+    ),
+    Project(
+      title: "TravelMaker - Swift웹 프로젝트",
+      image: "images/TravelMakerlogo.png",
+      term: "23/09/14 ~ 23/09/27",
+      team: "2명 프론트엔드, 1명 머신러닝, 1명 벡엔드, 분석, 프론트엔드",
+      description: "제주도 여행지를 사용자에 키워드에 맞춰 추천하는 앱",
+      gitURL: "https://github.com/Rano-K/PJ_TravelMaker",
+    ),
+    Project(
+      title: "NutriDelight",
+      image: "images/nutridelight.png",
+      term: "23/06/16 ~ 23/06/24",
+      team: "프론트엔드 및 백엔드 4명",
+      description: "Spring Boot로 늘어나는 1인 가구로 인해 불규칙적인 식사 문제를 손쉽게 접근 할 수 있게 밀키트 판매 홈페이지 제작",
+      gitURL: "https://github.com/Rano-K/Season2_Team4_Main",
     ),
   ];
 
@@ -229,20 +252,14 @@ class Mydata{
   static final List<More> mores = [
     More(
       title: 'GitHub',
-      url: '',
+      url: 'https://github.com/Rano-K',
       icon: SimpleIcons.github,
       iconColor: SimpleIconColors.github,
     ),
     More(
-      title: 'Video',
-      url: '',
-      icon: SimpleIcons.youtube,
-      iconColor: SimpleIconColors.youtube,
-    ),
-    More(
       title: 'Notion',
       url:
-          '',
+          'https://rano-k.notion.site/Rano-K-871962e09b1d48049a7a44288847bbbd?pvs=4',
       icon: SimpleIcons.notion,
       iconColor: SimpleIconColors.notion,
     ),

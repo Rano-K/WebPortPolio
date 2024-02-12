@@ -13,7 +13,7 @@ class ProjectTile extends StatelessWidget {
       child: Card(
         margin: const EdgeInsets.fromLTRB(20, 20, 20, 20),
         child: InkWell(
-          onTap: () => pfFunction().launchURL(project.notionURL),
+          onTap: () => pfFunction().launchURL(project.gitURL),
           child: Column(
             children: [
               Padding(

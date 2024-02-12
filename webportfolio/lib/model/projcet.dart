@@ -4,7 +4,7 @@ class Project{
   final String term;
   final String team;
   final String description;
-  final String notionURL;
+  final String gitURL;
 
   Project(
     {
@@ -13,7 +13,7 @@ class Project{
       required this.term,
       required this.team,
       required this.description,
-      required this.notionURL
+      required this.gitURL,
     }
   );
 }

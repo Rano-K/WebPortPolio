@@ -7,8 +7,9 @@ import 'package:webportfolio/components/project_tile.dart';
 import 'package:webportfolio/data/mydata.dart';
 import 'package:webportfolio/model/projcet.dart';
 
+// ignore: camel_case_types
 class pfFunction{
-
+    //url주소 입력시 launching
     launchURL(urlLocation) async{
       Uri uri = Uri.parse(urlLocation);
       if (await canLaunchUrl(uri)){
@@ -82,7 +83,4 @@ class pfFunction{
 
       return projectRows;
     }
-    
-
-
 }

@@ -50,7 +50,7 @@ class Mydata{
       },
       {'label': 'R', 'icon': SimpleIcons.r, 'color': SimpleIconColors.r},
     ],
-    // 프레임워크 스택
+    // frontend 스택
     'Frontend': [
       {
         'label': 'Flutter',
@@ -216,7 +216,7 @@ class Mydata{
   static final List<Project> projects = [
     Project(
       title: "포용누리 - Flutter앱 프로젝트",
-      image: "images/포용누리목업.png",
+      image: "images/nurimook.png",
       term: "23/07/28 ~ 23/08/14 ",
       team: "백엔드1, 프론트엔드3",
       description: "장애인을 위한 일자리 추천 AI앱",
@@ -224,7 +224,7 @@ class Mydata{
     ),
     Project(
       title: "BlindDating - Flutter앱 프로젝트",
-      image: "images/blinddating목업.png",
+      image: "images/blinddatingmook.png",
       term: "23/10/11 ~ 23/10/31",
       team: "프론트엔드 2명 프론트엔드, 벡엔드, 분석 1명, 프론트엔드, 분석 1명",
       description: "회원의 외모가 아닌 어떤 견종과 닮았는지만을 보고 대화로 상대방을 알아가기 위한 목적으로 만든 앱",

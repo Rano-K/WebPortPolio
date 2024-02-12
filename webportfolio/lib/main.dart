@@ -18,14 +18,14 @@ class MyApp extends StatelessWidget {
       valueListenable: themeNotifie,
       builder: (_, ThemeMode currentMode, __) {
         return MaterialApp(
-          builder: (context, child) => ResponsiveBreakpoints(
+          builder: (context, child) => ResponsiveBreakpoints.builder(
             child: child!, 
             breakpoints: [
               const Breakpoint(start: 0, end: 450, name: MOBILE),
               const Breakpoint(start: 451, end: 800, name: TABLET),
               const Breakpoint(start: 801, end: 1920, name: DESKTOP),
               const Breakpoint(start: 1921, end: double.infinity, name: '4K'),
-            ]
+            ],
           ),
           title: 'Flutter Web Portfolio',
           theme: ThemeData(
@@ -35,7 +35,7 @@ class MyApp extends StatelessWidget {
           darkTheme: ThemeData(
             colorScheme: ColorScheme.fromSeed(
               seedColor: Colors.red,
-              brightness: Brightness.light,
+              brightness: Brightness.dark,
             ),
             useMaterial3: true,
           ),

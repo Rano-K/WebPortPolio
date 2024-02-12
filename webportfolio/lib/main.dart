@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
           ),
           title: 'Flutter Web Portfolio',
           theme: ThemeData(
-            colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+            colorScheme: ColorScheme.fromSeed(seedColor:  Color.fromARGB(255, 134, 100, 255)),
             useMaterial3: true,
           ),
           darkTheme: ThemeData(

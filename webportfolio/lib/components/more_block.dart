@@ -12,7 +12,7 @@ class MoreBlock extends StatelessWidget {
     return Column(
       children: [
         const Text(
-          'More details?\nPress the below buttons!',
+          'Notion & github Link',
           textAlign: TextAlign.center,
           style: TextStyle(fontSize: 20),
         ),

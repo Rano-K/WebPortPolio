@@ -11,33 +11,35 @@ import 'package:webportfolio/model/projcet.dart';
 class pfFunction{
     //url주소 입력시 launching
     launchURL(urlLocation) async{
-      Uri uri = Uri.parse(urlLocation);
-      if (await canLaunchUrl(uri)){
-        await launchURL(uri,);
+      // Uri uri = Uri.parse(urlLocation);
+      if (await canLaunchUrl(urlLocation)){
+        await launchURL(urlLocation);
       }else{
-        throw 'could not launch $uri';
+        throw 'could not launch $urlLocation';
       }
     }
 
     /// mobile, tablet, desktop용 사이즈 입력 시 레이아웃에 맞게 value 리턴해주는 함수
-    double? calcResponsiveSize(context,
+    double? calcResponsiveSize(BuildContext context,
             {required double mobile,
             required double tablet,
-            required double desktop}) =>
-        ResponsiveValue(
-          context,
-          defaultValue: mobile,
-          conditionalValues: [
-            Condition.largerThan(
-              value: tablet,
-              name: MOBILE,
-            ),
-            Condition.largerThan(
-              value: desktop,
-              name: TABLET,
-            ),
-          ],
-        ).value;
+            required double desktop}) {
+              return ResponsiveValue(
+                context,
+                defaultValue: mobile,
+                conditionalValues: [
+                  Condition.largerThan(
+                    value: tablet,
+                    name: MOBILE,
+                  ),
+                  Condition.largerThan(
+                    value: desktop,
+                    name: TABLET,
+                  ),
+                ],
+              ).value;
+            }
+        
 
 
 

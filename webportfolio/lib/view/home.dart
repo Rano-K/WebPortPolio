@@ -22,7 +22,7 @@ class Home extends StatelessWidget {
       //===APPBAR START===
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.primary,
-        foregroundColor: Theme.of(context).colorScheme.secondary,
+        foregroundColor: Theme.of(context).colorScheme.background,
         centerTitle: true,
         title: const AppBarTitle(),
         leading: ResponsiveVisibility(

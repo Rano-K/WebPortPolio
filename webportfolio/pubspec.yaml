@@ -39,7 +39,7 @@ dependencies:
   # 반응형 앱
   responsive_framework: ^1.1.1
   # URL Launcher
-  url_launcher: ^6.2.4
+  url_launcher: ^6.2.1
   # get skill icons 
   simple_icons: ^10.1.3
 
